@@ -21,6 +21,30 @@
   text-align:left;
 }
 
+.header-text{
+    font-size:25px;
+    font-weight: bold;
+    color: #712c0c;
+    margin-left: -15px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1em; /*set line height back to normal*/
+}
+
+/*
+@media (min-width:990px) and (max-width:1200px) {
+  .header-text{
+    visibility:collapse;
+  }
+}
+
+@media (max-width: 380px) {
+  .header-text{
+    visibility:collapse;
+  }
+}
+*/
+
 /*
 @media (min-width: 701px) {
   html ,body {
@@ -170,7 +194,8 @@ h6,
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 70px;
+/*  height: 70px;*/
+  height: 100px;
   background: #fff;
   z-index: 997;
   box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06);
@@ -195,7 +220,8 @@ h6,
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+/*  max-height: 40px;*/
+  max-height: 100px;
 }
 
 .scrolled-offset {
@@ -231,7 +257,9 @@ h6,
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Open Sans", sans-serif;
-  font-size: 15px;
+/*  font-size: 15px;*/
+  font-size: 18px;
+  font-weight: bold;
   color: #5c768d;
   white-space: nowrap;
   transition: 0.3s;
@@ -1556,4 +1584,33 @@ section {
     width: 75%;
     height: 50rem;
   }
+}
+
+.carou
+{
+    filter: brightness(200%);
+    -webkit-filter: brightness(200%);
+    -moz-filter: brightness(200%);
+    -o-filter: brightness(200%);
+    -ms-filter: brightness(200%);
+}
+
+/*.div-for-p
+{
+  width:300px;
+  height:100px;  
+  display: table; 
+  background:#ccddcc;  
+}
+
+
+.p-in-div {
+  text-align:center; 
+  vertical-align: middle;
+  display: table-cell;   
+}*/
+
+.fancy_list li {
+     line-height: 2.5em;
+     height: auto;
 }
