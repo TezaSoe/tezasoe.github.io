@@ -1588,11 +1588,11 @@ section {
 
 .carou
 {
-    filter: brightness(200%);
-    -webkit-filter: brightness(200%);
-    -moz-filter: brightness(200%);
-    -o-filter: brightness(200%);
-    -ms-filter: brightness(200%);
+    filter: brightness(230%);
+    -webkit-filter: brightness(230%);
+    -moz-filter: brightness(230%);
+    -o-filter: brightness(230%);
+    -ms-filter: brightness(230%);
 }
 
 /*.div-for-p
